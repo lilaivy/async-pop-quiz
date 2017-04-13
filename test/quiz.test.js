@@ -8,7 +8,7 @@ const ellapsed = newDate() - start;
 describe(takeFive(), => {
 
     it('will call the callback after 5 seconds', done => {
-     //test that the callback runs after a 5 second time out
+    console.log(result, '5 seconds later');
 }).timeout(7000);
 done();
 
